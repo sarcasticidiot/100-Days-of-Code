@@ -5,14 +5,16 @@
 
 int main()
 {
-    int a = 5;
-    int b = 6;
+    int a,b;
+    printf("Enter values of variables a and b = ");
+    scanf("%d",&a);
+    scanf("%d",&b);
     int swap;
     printf("The values of a and b are = %d and %d.\n",a,b);
     swap  = a;
     a = b;
     b = swap;
-
+    printf("swapping.....\n");
     printf("The values of a and b are = %d and %d.\n",a,b);
     return 0;
 }
