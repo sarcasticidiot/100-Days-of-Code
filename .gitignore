@@ -10,3 +10,4 @@
 # Ignore extensionless files inside your Day folders (binaries like q9, q11)
 # This matches files that do not contain a dot '.' extension
 build/
+tasks.json
