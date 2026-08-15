@@ -1,0 +1,12 @@
+# Ignore macOS Finder files
+.DS_Store
+
+# Ignore Xcode debug directories
+*.dSYM/
+
+# Ignore compiled build artifacts / YAML files
+*.yml
+
+# Ignore extensionless files inside your Day folders (binaries like q9, q11)
+# This matches files that do not contain a dot '.' extension
+**/[a-zA-Z0-9]*[!.]
