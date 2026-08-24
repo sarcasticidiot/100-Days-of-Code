@@ -6,7 +6,7 @@
 int main()
 {   
     float a,b,c,d,root1,root2;
-    printf("A quadratic equation is as follows: ax^2+bx^2+c = 0.\n");
+    printf("A quadratic equation is as follows: ax^2+bx+c = 0.\n");
     printf("Enter the values of a,b and c = ");
     scanf("%f",&a);
     scanf("%f",&b);
