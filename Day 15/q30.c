@@ -4,25 +4,15 @@
 
 int main()
 {
-    //Calculating the length of the number
-    int n,a=0,b=0;
+    int n, rev = 0;
     printf("Enter the number = ");
-    scanf("%d",&n);    
-    int c = n;
-    while(2){
-        if(c == 0){
-            break;
-        }
-        a += 1;
-        c /= 10;
+    scanf("%d",&n);
+    int a = n;
+    while(a!=0){
+        int rem = a%10;
+        rev = rev*10 + rem;
+        a /= 10;
     }
-    //a has the length of the number stored in n.
-
-    //now reversing the number
-    for (int i = 1;i<=a;i++){
-        b = b*10 + n%10;
-        n /= 10;
-    }
-    printf("Reverse of the given number = %d.\n",b);
+    printf("The reverse of %d = %d.\n",n,rev);
     return 0;
 }
