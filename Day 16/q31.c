@@ -18,25 +18,20 @@ Output 2:
 
 int main()
 {
-    int n,num=0;
+    int n,num[100],i=0;
     printf("Enter the number = ");
     scanf("%d",&n);
     int temp = n;
     while(temp!=0){
         int rem = temp%2;
-        num = num*10 + rem;
+        num[i] = rem;
         temp /= 2;
+        i++;
     }
-
-    //now reversing 'num' to find binary:
-
-    int t = num;
-    int binary=0;
-    while(t!=0){
-        int rem = t%10;
-        binary = binary*10 + rem;
-        t /= 10;
+    printf("Binary of %d = ",n);
+    for(int j = i-1;j>=0;j--){
+        printf("%d",num[j]);
     }
-    printf("%d is the binary form of number %d.\n",binary,n);
+    printf("\n");
     return 0;
 }
