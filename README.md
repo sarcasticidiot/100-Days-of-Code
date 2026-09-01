@@ -6,7 +6,7 @@ A repository documenting my **100 Days of Code** journey as I learn and practice
 
 Each day has its own folder containing the code, exercises, and problems completed that day.
 
-* `Day 1/` to `Day 17/` — Daily practice and coding exercises
+* `Day 1/` to `Day 23/` — Daily practice and coding exercises
 * `build/` — Compiled files and build artifacts
 * `.gitignore` — Keeps unnecessary files out of the repository
 
